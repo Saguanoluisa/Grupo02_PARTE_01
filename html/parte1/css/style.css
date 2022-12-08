@@ -373,7 +373,7 @@ button {
     text-align: center;
 }
 
-.read_bt {
+._bt {
     width: 200px;
     margin: 0 auto;
     text-align: center;
@@ -510,6 +510,17 @@ button {
     width: 170px;
     float: left;
     margin-top: 50px;
+}
+
+.menu {
+    width: 170px;
+    float: right;
+    margin-top: 50px;
+    position: static;
+}
+
+.nav_menu{
+    background-color: hsl(178, 60%, 16%);
 }
 
 .readmore_bt a {
