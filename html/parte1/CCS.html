@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Blog</title>
+   <title>About</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -49,19 +49,19 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">METODOS</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">DOCUMENTOS</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="Elementos.html">Elementos</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="blog.html">Blog</a>
+                        <a class="nav-link " href="HTML.html">HTML</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="contact.html">Contact</a>
+                        <a class="nav-link " href="Formularios.html">FORMULARIOS</a>
                      </li>
                   </ul>
                </div>
@@ -72,40 +72,74 @@
             <div class="menu_main">
                <ul>
                   <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact us</a></li>
+                  <li><a href="about.html">METODOS</a></li>
+                  <li><a href="services.html">DOCUMENTOS</a></li>
+                  <li><a href="HTML.html">HTML</a></li>
+                  <li><a href="Elementos.html">ELEMENTOS</a></li>
+                  <li><a href="Formularios.html">FORMULARIOS</a></li>
                </ul>
             </div>
          </div>
       </div>
    </div>
    <!-- header section end -->
-   <!-- blog section start -->
-   <div class="blog_section layout_padding margin_top_90">
-      <div class="container">
-         <h1 class="blog_taital">See Our Video</h1>
-         <p class="blog_text">many variations of passages of Lorem Ipsum available, but the majority have suffered
-            alteration in some form, by injected humour, or randomised words which</p>
-         <div class="play_icon_main">
-            <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
+   <!-- about section start -->
+   <div class="about_section layout_padding">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="container">
+               <div class="about_taital_main">
+                  <h1 class="about_taital">JavaScript HTML DOM - Cambio de CSS</h1>
+                  <h2>El HTML DOM permite que JavaScript cambie el estilo de los elementos HTML.</h2>
+                  <h4 class="text-center">Cambio de estilo HTML</h4>
+                    <p class="section-description">
+                        Para cambiar el estilo de un elemento HTML, use esta sintaxis:
+
+                        document.getElementById(id).style.property = new style
+                    </p>
+                    <center><iframe src="./Ejemplos/EjemploCSS.html" style="width: 60%; height: 300px"> </iframe></center>
+                    <br>
+                    <h4 class="text-center">Uso de eventos</h4>
+                    <p class="section-description">
+                    El HTML DOM le permite ejecutar código cuando ocurre un evento.
+                    Los eventos son generados por el navegador cuando "le suceden cosas" a los elementos HTML:
+                    <li>Se hace clic en un elemento.</li>
+                    <li>La página ha cargado</li>
+                    <li>Los campos de entrada se cambian.</li>
+                    Este ejemplo cambia el estilo del elemento HTML con id="id1", cuando el usuario hace clic en un botón:
+                    </p>
+                    <p id="p1">
+                        This is a text.
+                        This is a text.
+                        This is a text.
+                        This is a text.
+                        </p>
+                        
+                        <input type="button" value="Hide text" onclick="document.getElementById('p1').style.visibility='hidden'">
+                        <input type="button" value="Show text" onclick="document.getElementById('p1').style.visibility='visible'">
+                    <br>
+
+
+                  <div class="readmore_bt"><a href="#">Mas Informacion</a></div>
+               </div>
+            </div>
+    
          </div>
       </div>
    </div>
-   <!-- blog section end -->
+   <!-- about section end -->
    <!-- footer section start -->
    <div class="footer_section layout_padding">
       <div class="container">
          <div class="input_btn_main">
-            <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+            <input type="text" class="mail_text" placeholder="Contactanos con tu email" name="Enter your email">
+            <div class="subscribe_bt"><a href="#">Subscribete</a></div>
          </div>
          <div class="location_main">
             <div class="call_text"><img src="images/call-icon.png"></div>
-            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <div class="call_text"><a href="#">Telefono 0982399515</a></div>
             <div class="call_text"><img src="images/mail-icon.png"></div>
-            <div class="call_text"><a href="#">demo@gmail.com</a></div>
+            <div class="call_text"><a href="#">cmgarces2@espe.edu.ec</a></div>
          </div>
          <div class="social_icon">
             <ul>
@@ -122,7 +156,7 @@
    <div class="copyright_section">
       <div class="container">
          <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html
-               Templates</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+               Templates</a> Distributed by Grupo02</p>
       </div>
    </div>
    <!-- copyright section end -->

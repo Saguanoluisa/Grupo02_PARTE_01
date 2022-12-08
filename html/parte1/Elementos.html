@@ -49,19 +49,19 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">METODOS</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">DOCUMENTOS</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="HTML.html">HTML</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="blog.html">Blog</a>
+                        <a class="nav-link " href="CCS.html">CSS</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="contact.html">Contact</a>
+                        <a class="nav-link " href="Formularios.html">FORMULARIOS</a>
                      </li>
                   </ul>
                </div>
@@ -72,50 +72,87 @@
             <div class="menu_main">
                <ul>
                   <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact us</a></li>
+                  <li><a href="about.html">METODOS</a></li>
+                  <li><a href="services.html">DOCUMENTOS</a></li>
+                  <li><a href="HTML.html">HTML</a></li>
+                  <li><a href="CCS.html">CSS</a></li>
+                  <li><a href="Formularios.html">FORMULARIOS</a></li>
                </ul>
             </div>
          </div>
       </div>
    </div>
    <!-- header section end -->
-   <!-- contact section start -->
-   <div class="contact_section layout_padding">
-      <div class="container">
-         <h1 class="contact_taital">Request A Call Back</h1>
-         <div class="email_text">
-            <div class="form-group">
-               <input type="text" class="email-bt" placeholder="Name" name="Email">
+   <!-- about section start -->
+   <div class="about_section layout_padding">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="container">
+               <div class="about_taital_main">
+                  <h1 class="about_taital">Elementos</h1>
+                  <h2>Esta página le enseña cómo encontrar y acceder a elementos HTML en una página HTML.</h2>
+                  <h4 class="text-center">Encontrar elementos HTML</h4>
+                    <p class="section-description">
+                        A menudo, con JavaScript, desea manipular elementos HTML
+                        Para hacerlo, primero debes encontrar los elementos. Hay varias formas de hacer esto:<br>
+                    <li>Encontrar elementos HTML por ID</li>
+                    <li>Encontrar elementos HTML por nombre de etiqueta</li>
+                    <li>Encontrar elementos HTML por nombre de clase</li>
+                    <li>Encontrar elementos HTML mediante selectores CSS</li>
+                    <li>Encontrar elementos HTML por colecciones de objetos HTML</li>
+                    </p>
+                    <h4 class="text-center">Encontrar elemento HTML por ID</h4>
+                    <p class="section-description">
+                    <li>La forma más fácil de encontrar un elemento HTML en el DOM es utilizando el ID del elemento.</li>
+                    <li>Este ejemplo encuentra el elemento con id="intro"</li>
+                    <li>Si se encuentra el elemento, el método devolverá el elemento como un objeto (en myElement).</li>
+                    <li>Si no se encuentra el elemento, myElement contendrá null.</li>  
+                    </p><br>
+
+                    <h4 class="text-center">Encontrar elementos HTML por nombre de etiqueta</h4>
+                    <p class="section-description">
+                    Este ejemplo encuentra el elemento con id="main"y luego encuentra todos los <p>elementos dentro "main":
+                    </p>
+                    <center><iframe src="./Ejemplos/EjemploElementos1.html" style="width: 60%; height: 300px"> </iframe></center>
+                    <br>
+
+                    <h4 class="text-center">Encontrar elementos HTML por nombre de clase</h4>
+                    <p class="section-description">
+                    Si desea encontrar todos los elementos HTML con el mismo nombre de clase, utilice getElementsByClassName().
+                    </p><br>
+
+                    <h4 class="text-center">Encontrar elementos HTML mediante selectores de CSS</h4>
+                    <p class="section-description">
+                        Si desea encontrar todos los elementos HTML que coincidan con un selector CSS específico (id, nombres de clase, tipos, atributos, valores de atributos, etc.), use el querySelectorAll()método.
+                    </p><br>
+
+                    <h4 class="text-center">Encontrar elementos HTML por colecciones de objetos HTML</h4>
+                    <p class="section-description">
+                        Este ejemplo encuentra el elemento de formulario con id="frm1", en la colección de formularios, y muestra todos los valores de los elementos:
+                    </p>
+                    <center><iframe src="./Ejemplos/EjemploElementos2.html" style="width: 60%; height: 300px"> </iframe></center>
+                    <br>
+
+                  <div class="readmore_bt"><a href="#">Mas Informacion</a></div>
+               </div>
             </div>
-            <div class="form-group">
-               <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
-            </div>
-            <div class="form-group">
-               <input type="text" class="email-bt" placeholder="Email" name="Email">
-            </div>
-            <div class="form-group">
-               <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-            </div>
-            <div class="send_btn"><a href="#">SEND</a></div>
+    
          </div>
       </div>
    </div>
-   <!-- contact section end -->
+   <!-- about section end -->
    <!-- footer section start -->
    <div class="footer_section layout_padding">
       <div class="container">
          <div class="input_btn_main">
-            <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+            <input type="text" class="mail_text" placeholder="Contactanos con tu email" name="Enter your email">
+            <div class="subscribe_bt"><a href="#">Subscribete</a></div>
          </div>
          <div class="location_main">
             <div class="call_text"><img src="images/call-icon.png"></div>
-            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <div class="call_text"><a href="#">Telefono 0982399515</a></div>
             <div class="call_text"><img src="images/mail-icon.png"></div>
-            <div class="call_text"><a href="#">demo@gmail.com</a></div>
+            <div class="call_text"><a href="#">cmgarces2@espe.edu.ec</a></div>
          </div>
          <div class="social_icon">
             <ul>
@@ -132,7 +169,7 @@
    <div class="copyright_section">
       <div class="container">
          <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html
-               Templates</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+               Templates</a> Distributed by Grupo02</p>
       </div>
    </div>
    <!-- copyright section end -->
